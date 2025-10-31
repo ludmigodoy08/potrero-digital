@@ -1,12 +1,21 @@
-body { background: #F5B190;}
+body { background-color: #F5B190;
+       background-image: url(../imagenes/fondo.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+}
 
 .bordo {color: #821414;}
 .chocolate {color: #300601;}
 h1 {
   font-family: 'Cooper Black', serif;
   color: #A10000;font-size: xxlarge; text-decoration: underline;text-align: center; /* centro */
+  border: solid 3px;
+  padding: 20px;
 }
-h2 { font-size: xx-large;text-decoration: underline;}
+h2 { font-size: xx-large;text-decoration: underline;
+border: solid 3px;
+background-color:#FF8C75; }
 h3 { font-size: x-large;text-decoration: underline;}
 p   {font-size:large;}
 ol  {font-size: large;}
@@ -15,3 +24,11 @@ ul  {font-size: large;}
   width: 640px;
   height: 480px;
 }
+.imagen-icono {
+  width: 105px;
+  height: 105px;
+}
+.imagen-icono2 {
+  width: 145px;
+  height: 140px;}
+header { background-color:#FF8C75;}
