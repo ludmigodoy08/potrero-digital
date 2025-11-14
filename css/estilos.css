@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body { background-color: #F5B190;
        background-image: url(../imagenes/fondo.jpg);
        background-repeat: no-repeat;
        background-attachment: fixed;
        background-size: cover;
+        text-shadow: 2px 2px 6px #000;   
 }
 
 .bordo {color: #821414;}
 .chocolate {color: #300601;}
-h1 {
-  font-family: 'Cooper Black', serif;
+h1  {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
   color: #A10000;font-size: xxlarge; text-decoration: underline;text-align: center; /* centro */
-  border: solid 3px;
-  padding: 20px;
+    padding: 20px;
 }
+
 h2 { font-size: xx-large;text-decoration: underline;
 border: solid 3px;
 background-color:#FF8C75; }
@@ -20,10 +23,10 @@ h3 { font-size: x-large;text-decoration: underline;}
 p   {font-size:large;}
 ol  {font-size: large;}
 ul  {font-size: large;}
+
 .imagen-especifica {
   width: 640px;
-  height: 480px;
-}
+height: 480px; }
 .imagen-icono {
   width: 105px;
   height: 105px;
@@ -31,4 +34,40 @@ ul  {font-size: large;}
 .imagen-icono2 {
   width: 145px;
   height: 140px;}
-header { background-color:#FF8C75;}
+header { display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 30vh;
+  background-color:#FF8C75;}
+  footer { display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30vh; }
+  .redes {
+       width: 50px;
+  }
+  .rs {
+    height: 30%;
+    display: flex;
+  }
+.logo {
+  height: 80%;
+}
+
+
+.flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.flotante img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
