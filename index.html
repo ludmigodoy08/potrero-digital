@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
   </head>
   <body>
@@ -72,10 +73,28 @@
     <li>Servir las milanesas napolitanas acompañadas con papas fritas.</li>
   </ol>
 </section>
-<div class="caja">
-  <img src="./imagenes/mila.jpg" alt="">
-  <img class="imagen-especifica"src="./imagenes/milaypapas.jpg" alt="">
+<br>
+<div class="carrusel">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="imagenesmila"src="./imagenes/mila.jpg"  class="d-block w-75" alt="...">
+    </div>
+    <div class="carousel-item ">
+      <img class="imagenesmila" src="./imagenes/milaypapas.jpg"  class="d-block w-75" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
+</div>
+
 <section>
   <br>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/QmkmmhAHwPw?si=h9xPm8F99CiP_6Nj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -100,14 +119,19 @@
 
 
 <footer>
+<div class="mapa">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52575.77237629799!2d-58.77750491434335!3d-34.55391558912844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd7f8ed7ed6f%3A0xa141f13ddb761d51!2sB1663%20San%20Miguel%2C%20Buenos%20Aires%20Province!5e0!3m2!1sen!2sar!4v1763089484947!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
   <div class="rs">
     <a href="https://www.instagram.com/" target="_blank"> <img class="redes" src="./imagenes/ig.png" alt="imagen no disponible"> </a>
     <a href="https://www.tiktok.com/es-419/" target="_blank"> <img class="redes" src="./imagenes/tiktok.png" alt="imagen no disponible"> </a>
     <a href="https://x.com/?lang=es" target="_blank"> <img class="redes" src="./imagenes/x.png" alt="imagen no disponible"> </a>
     <img class="redes" src="./imagenes/whats.png" alt="">
   </div>
-  <h4> Programadora Web: Ludmila Godoy</h4>
+  <div class="info">
+    <h4> Programadora Web: Ludmila Godoy</h4>
+  </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
