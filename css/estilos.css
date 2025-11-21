@@ -4,7 +4,31 @@ body { background-color: #F5B190;
        background-repeat: no-repeat;
        background-attachment: fixed;
        background-size: cover;
-        text-shadow: 2px 2px 6px #000;   
+        text-shadow: 2px 1px 2px rgba(0,0,0,0.3);
+}
+.carrusel {
+    max-width: 90vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-wrap: wrap;
+min-height: 100vh;
+width: 100%;
+max-width: 90%;
+
+
+}
+
+  .carrousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
 }
 
 .bordo {color: #821414;}
@@ -23,10 +47,14 @@ h3 { font-size: x-large;text-decoration: underline;}
 p   {font-size:large;}
 ol  {font-size: large;}
 ul  {font-size: large;}
-
+.carrousel-inner img{
+  width: 100%;
+  height: auto;
+  margin-left: 0;}
 .imagen-especifica {
   width: 640px;
-height: 480px; }
+height: 480px;
+ }
 .imagen-icono {
   width: 105px;
   height: 105px;
